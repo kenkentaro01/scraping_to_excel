@@ -1,0 +1,10 @@
+# Excelファイルを無視するが.gitkeepは例外
+excel_output/*.xls
+excel_output/*.xlsx
+excel_output/*.xlsm
+excel_output/*.xlsb
+!excel_output/.gitkeep
+
+# JSONファイルを無視するが.gitkeepは例外
+json_output/*.json
+!json_output/.gitkeep
