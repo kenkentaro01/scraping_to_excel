@@ -6,5 +6,7 @@ excel_output/*.xlsb
 !excel_output/.gitkeep
 
 # JSONファイルを無視するが.gitkeepは例外
-json_output/*.json
+json_output/*.pdf
 !json_output/.gitkeep
+
+__pycache__/
